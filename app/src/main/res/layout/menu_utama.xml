@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:id="@+id/widget27"
+    android:background="#4CC52B">
+
+    <LinearLayout
+        android:layout_height="620dp"
+        android:layout_width="300dp"
+        android:id="@+id/widget28"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        >
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            >
+
+            <TextView
+                android:text="Silakan Memilih Anda Ingin Menghitung Bangun Ruang Apa / Melihat Contact Creator"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ff0000ff"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                />
+
+            <ImageButton
+                android:id="@+id/button1"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="#4CC52B"
+                android:scaleType="centerInside"
+                android:src="@drawable/cube" />
+
+            <ImageButton
+                android:id="@+id/button2"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:scaleType="fitCenter"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="#4CC52B"
+                android:src="@drawable/ball" />
+
+            <ImageButton
+                android:id="@+id/button3"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:scaleType="fitCenter"
+                android:layout_marginBottom="16dp"
+                android:backgroundTint="#4CC52B"
+                android:src="@drawable/balok" />
+
+            <ImageButton
+                android:id="@+id/button4"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:scaleType="fitCenter"
+                android:layout_marginBottom="6dp"
+                android:backgroundTint="#4CC52B"
+                android:src="@drawable/contact" />
+        </TableLayout>
+    </LinearLayout>
+</RelativeLayout>

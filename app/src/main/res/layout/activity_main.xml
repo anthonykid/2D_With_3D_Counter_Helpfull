@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="fill_parent"
+    android:layout_width="fill_parent"
+    android:id="@+id/widget27"
+    android:background="#9EDAD9">
+
+    <LinearLayout
+        android:layout_height="300dp"
+        android:layout_width="350dp"
+        android:id="@+id/widget28"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:orientation="vertical"
+        >
+        >
+        <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            >
+
+            <TextView
+                android:text="Silakan Login sebelum menggunakan aplikasi kami"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#ff0000ff"
+                android:textStyle="bold"
+                android:textSize="25dp"
+                />
+
+            <TextView
+                android:text="Username:"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ff0000ff"
+                />
+
+
+            <EditText android:id="@+id/et_un"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="18dp">
+            </EditText>
+
+            <TextView
+                android:text="Password:"
+                android:textStyle="bold"
+                android:textSize="18dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ff0000ff"
+                />
+
+
+            <EditText android:layout_height="wrap_content"
+                android:id="@+id/et_pw"
+                android:layout_width="match_parent"
+                android:inputType="textPassword"
+                android:textColor="@color/black"
+                android:textSize="18dp">
+            </EditText>
+
+            <TableRow >
+                <Button android:text="Login"
+                    android:id="@+id/btn_login"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </Button>
+
+                <Button android:text="Cancel"
+                    android:id="@+id/btn_cancel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </Button>
+
+            </TableRow>
+
+
+            <TextView android:text=""
+                android:layout_height="wrap_content"
+                android:id="@+id/tv_error"
+                android:layout_width="wrap_content">
+            </TextView>
+
+            <TextView android:text=""
+                android:layout_height="wrap_content"
+                android:id="@+id/ljarak1"
+                android:layout_width="wrap_content">
+            </TextView>
+        </TableLayout>
+    </LinearLayout>
+</RelativeLayout>

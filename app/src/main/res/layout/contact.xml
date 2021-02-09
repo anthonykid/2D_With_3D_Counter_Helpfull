@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/about"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D55421">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/get_logo"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp"
+            android:layout_centerVertical="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/dicky" />
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/widget30"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:text="Hello, My Name Is Anthony Dicky">
+        </TextView>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/widget31"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:text="You can check my Instagram Here">
+        </TextView>
+
+        <Button
+            android:id="@+id/instagram"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Instagram"
+            android:textColor="@color/white"
+            app:backgroundTint="#6A2975">
+        </Button>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/widget32"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:text="You can check my Twitter Here">
+        </TextView>
+
+        <Button
+            android:id="@+id/twitter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Twitter"
+            android:textColor="@color/white"
+            app:backgroundTint="#39A696"></Button>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/widget33"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:textSize="25dp"
+            android:textColor="@color/black"
+            android:text="You can check my Github Here">
+        </TextView>
+
+        <Button
+            android:id="@+id/github"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Github"
+            android:textColor="@color/white"
+            app:backgroundTint="#000000"></Button>
+
+    </LinearLayout>
+
+</ScrollView>
